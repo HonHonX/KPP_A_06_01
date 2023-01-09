@@ -22,18 +22,18 @@ int main () {
   float notenberechnung=0;
   
   //Werte einlesen
-  for (i=1; i<=10; i++) {
-    printf("Bitte geben Sie die %d.Zahl ein: \n",i);
+  for (i=0; i<10; i++) {
+    printf("Bitte geben Sie die %d.Zahl ein: \n",i+1);
     scanf("%d", &noten[i]);
     notenberechnung += noten[i];
   }
   
   //Wert ausgeben
-  printf("\nDer Notendurchschnitt lautet %f.\n", notenberechnung/10);    
+  printf("\nDer Notendurchschnitt lautet %.2f.\n", notenberechnung/10);    
   
-	//Ende
-	printf("\n\n");
-	return 0;
+  //Ende
+  printf("\n\n");
+  return 0;
 }
 
 //Funktionen
