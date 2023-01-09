@@ -1,8 +1,5 @@
 #include<stdio.h>
 
-// Funktions-Prototypen
-
-
 //Hauptprogramm
 int main () {
 
@@ -35,5 +32,3 @@ int main () {
   printf("\n\n");
   return 0;
 }
-
-//Funktionen
