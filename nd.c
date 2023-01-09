@@ -23,7 +23,7 @@ int main () {
   
   //Werte einlesen
   for (i=1; i<=10; i++) {
-    printf("Bitte geben Sie die &d.Zahl ein: \n",i);
+    printf("Bitte geben Sie die %d.Zahl ein: \n",i);
     scanf("%d", &noten[i]);
     notenberechnung += noten[i];
   }
