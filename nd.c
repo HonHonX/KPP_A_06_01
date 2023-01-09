@@ -27,7 +27,7 @@ int main () {
  	}
   
   	//Wert ausgeben
-  	printf("\nDer Notendurchschnitt lautet %.2f.\n", notenberechnung/10);    
+  	printf("\nDer Notendurchschnitt lautet ø%.2f.\n", notenberechnung/10);    
   
   	//Ende
   	printf("\n\n");
